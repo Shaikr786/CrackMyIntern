@@ -1,6 +1,6 @@
 class Solution
 {
-     public long findMinDiff(ArrayList<Integer> a, int n, int m) {
+    public long findMinDiff(ArrayList<Integer> a, int n, int m) {
         // If there are no students or no packets
         if (m == 0 || n == 0) {
             return 0;
@@ -24,7 +24,6 @@ class Solution
                 minDiff = diff;
             }
         }
-
         return minDiff;
     }
 }
